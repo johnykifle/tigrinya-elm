@@ -7,9 +7,18 @@ body {
 
 h1 {
   font-size: 30px;
+  color: blue;
 }
 
 img {
   margin: 20px 0;
   max-width: 200px;
+}
+
+.test {
+  background-color: blue;
+  color: yellow;
+  &_what {
+      background-color: red;
+  }
 }

@@ -1,0 +1,27 @@
+{
+  "name": "tigrinya",
+  "version": "1.0.0",
+  "description": "My first elm prog",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css":  "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnykifle/tigirinya-elm.git"
+  },
+  "author": "Yohannes Russom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnykifle/tigirinya-elm/issues"
+  },
+  "homepage": "https://github.com/johnykifle/tigirinya-elm#readme",
+  "dependencies": {
+    "node-sass-chokidar": "^1.3.3"
+  }
+}
